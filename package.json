@@ -39,7 +39,7 @@
   },
   "dependencies" : {
     "async": "^1.x",
-    "sqllite": "^2.x",
+    "sqlite3": "*",
     "data-elevator": "<2.0.0"
   },
   "engines": {
