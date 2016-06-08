@@ -7,8 +7,11 @@ Storing the current migration level in a database brings advantages when a proje
 # RELATED MODULES #
 
 * data-elevator [npm](https://www.npmjs.com/package/data-elevator), [bitbucket](https://bitbucket.org/cacadu/data-elevator/overview)) - store elevator migration levels in file or in a custom data source
-* data-elevator-mysql [npm](https://www.npmjs.com/package/data-elevator-mysql), [bitbucket](https://bitbucket.org/cacadu/data-elevator-mysql/overview)) - store elevator migration levels in mysql out of the box
-* data-elevator-postgres ([npm](https://www.npmjs.com/package/data-elevator-postgres), [bitbucket](https://bitbucket.org/cacadu/data-elevator-postgres/overview)) - store elevator migration levels in postgres out of the box)
+* data-elevator-elasticsearch ([npm](https://www.npmjs.com/package/data-elevator-elasticsearch), [bitbucket](https://bitbucket.org/cacadu/data-elevator-elasticsearch/overview)) - store elevator migration levels in elasticsearch
+* data-elevator-mongodb ([npm](https://www.npmjs.com/package/data-elevator-mongodb), [bitbucket](https://bitbucket.org/cacadu/data-elevator-mongodb/overview)) - store elevator migration levels in mongodb
+* data-elevator-mysql [npm](https://www.npmjs.com/package/data-elevator-mysql), [bitbucket](https://bitbucket.org/cacadu/data-elevator-mysql/overview)) - store elevator migration levels in mysql
+* data-elevator-postgres ([npm](https://www.npmjs.com/package/data-elevator-postgres), [bitbucket](https://bitbucket.org/cacadu/data-elevator-postgres/overview)) - store elevator migration levels in postgres
+* data-elevator-sqlite3 ([npm](https://www.npmjs.com/package/data-elevator-sqlite3), [bitbucket](https://bitbucket.org/cacadu/data-elevator-sqlite3/overview)) - store elevator migration levels in sqlite3
 
 # INSTALL #
 
@@ -40,16 +43,14 @@ node ./data-elevator/elevator down --floor=3
 ```
 # CONFIGURATION #
 
-* **levelControllerConfig.collectionName:** Name of the collection to store the migration level in
-* **levelControllerConfig.connectionOptions:** Connection options see [sqlite3 website](http://www.sqlite3.com) 
-* **levelControllerConfig.connectionUrl:** Url for database connection
+* **levelControllerConfig.tableName:** Name of the table to store the migration level in
+* **levelControllerConfig.filePath:** Path to the Sqlite3 database file 
 
 ```
 var config = {
-    levelControllerConfig: {
-       collectionName: "_data_elevator",
-       connectionOptions: null,
-       connectionUrl: null
+    levelControllerConfig : {
+       tableName: "data_elevator",
+       filePath: null
     }
 }
 ```
