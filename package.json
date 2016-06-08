@@ -1,6 +1,6 @@
 {
   "name": "data-elevator-sqlite3",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0",
   "description": "Flexible utility for managing migrations of sqlite3 data sources",
   "main": "elevator.js",
   "keywords": [
@@ -39,7 +39,7 @@
   },
   "dependencies" : {
     "async": "^1.x",
-    "sqlite3": "*",
+    "sqlite3": "^3.x",
     "data-elevator": "<2.0.0"
   },
   "engines": {
