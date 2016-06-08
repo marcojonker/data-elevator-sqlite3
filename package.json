@@ -1,21 +1,21 @@
 {
-  "name": "data-elevator-sqllite",
+  "name": "data-elevator-sqlite3",
   "version": "1.0.0-beta.0",
-  "description": "Flexible utility for managing migrations of sqllite data sources",
+  "description": "Flexible utility for managing migrations of sqlite3 data sources",
   "main": "elevator.js",
   "keywords": [
     "migrate",
     "migration",
     "migrations",
     "migrate data",
-    "migrate sqllite",
-    "sqllite migration",
-    "sqllite migrate",
+    "migrate sqlite3",
+    "sqlite3 migration",
+    "sqlite3 migrate",
     "database migration",
     "data migration",
     "donwgrade",
     "upgrade",
-    "sqllite",
+    "sqlite3",
     "data-elevator",
     "elevate data",
     "data",
@@ -23,7 +23,7 @@
     "database",
     "utility"
   ],
-  "bugs": "https://bitbucket.org/cacadu/data-elevator-sqllite/issues/",
+  "bugs": "https://bitbucket.org/cacadu/data-elevator-sqlite3/issues/",
   "license": "MIT",
   "author": "Marco Jonker",
   "files": [
@@ -35,7 +35,7 @@
   ],
   "repository" : { 
     "type" : "git",
-    "url" : "git@bitbucket.org:cacadu/data-elevator-sqllite.git"
+    "url" : "git@bitbucket.org:cacadu/data-elevator-sqlite3.git"
   },
   "dependencies" : {
     "async": "^1.x",

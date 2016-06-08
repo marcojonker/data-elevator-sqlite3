@@ -1,6 +1,6 @@
-# DATA ELEVATOR sqllite #
+# DATA ELEVATOR SQLITE3 #
 
-The data elevator sqllite is an easy to use and very flexible utility for migrating data sources based on the NPM module [data elevator](Link URL). The only difference is that data elevator sqllite stores its current migration level in a sqllite database.
+The data elevator sqlite3 is an easy to use and very flexible utility for migrating data sources based on the NPM module [data elevator](Link URL). The only difference is that data elevator sqlite3 stores its current migration level in a sqlite3 database.
 
 Storing the current migration level in a database brings advantages when a project shares its data source with multiple running instances of a project. For example when multiple developers working with one database or the project runs on multiple servers.
 
@@ -13,7 +13,7 @@ Storing the current migration level in a database brings advantages when a proje
 # INSTALL #
 
 ```
-npm install data-elevator-sqllite
+npm install data-elevator-sqlite3
 ```
 
 # QUICKSTART #
@@ -22,7 +22,7 @@ npm install data-elevator-sqllite
 
 1 Construct a new data elevator for the project.
 ```
-node ./node-modules/data-elevator-sqllite construct
+node ./node-modules/data-elevator-sqlite3 construct
 ```
 2 Add a new floor.
 ```
@@ -41,7 +41,7 @@ node ./data-elevator/elevator down --floor=3
 # CONFIGURATION #
 
 * **levelControllerConfig.collectionName:** Name of the collection to store the migration level in
-* **levelControllerConfig.connectionOptions:** Connection options see [sqllite website](http://www.sqllite.com) 
+* **levelControllerConfig.connectionOptions:** Connection options see [sqlite3 website](http://www.sqlite3.com) 
 * **levelControllerConfig.connectionUrl:** Url for database connection
 
 ```
@@ -66,7 +66,7 @@ Parameters explained:
 Construct a new data elevator in you project. In principle this command is only performed once per project.
 
 ```
-Command: 'node ./node-modules/data-elevator-sqllite construct'
+Command: 'node ./node-modules/data-elevator-sqlite3 construct'
     
 Parameters:
     --config-dir=  (-c=, o) Data elevator config dir (default=./data-elevator)
@@ -74,8 +74,8 @@ Parameters:
     --verbose      (-v,  o) Verbose mode
 
 Examples:
-    node ./node-modules/data-elevator-sqllite construct
-    node ./node-modules/data-elevator-sqllite construct  -c="./config"
+    node ./node-modules/data-elevator-sqlite3 construct
+    node ./node-modules/data-elevator-sqlite3 construct  -c="./config"
 ```
 
 ### add ###
