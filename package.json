@@ -1,8 +1,11 @@
 {
   "name": "data-elevator-sqlite3",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Flexible utility for managing migrations of sqlite3 data sources",
   "main": "elevator.js",
+    "bin" : { 
+    "data-elevator-sqlite3" : "./bin/data-elevator.js" 
+  },
   "keywords": [
     "migrate",
     "migration",
@@ -30,13 +33,16 @@
     "package.json",
     "README.md",
     "LICENSE",
+    "CHANGELOG",
     "elevator.js",
-    "lib"
+    "lib",
+    "bin"
   ],
   "repository" : { 
     "type" : "git",
     "url" : "git@bitbucket.org:cacadu/data-elevator-sqlite3.git"
   },
+  "homepage" : "https://bitbucket.org/cacadu/data-elevator-sqlite3",
   "dependencies" : {
     "async": "^1.x",
     "sqlite3": "^3.x",
