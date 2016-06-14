@@ -53,7 +53,7 @@
   "dependencies" : {
     "async": "^1.x",
     "sqlite3": "^3.x",
-    "data-elevator": "2.0.0-alpha.4"
+    "data-elevator": "2.0.0-alpha.5"
   },
   "engines": {
     "node": ">=5.0.0"

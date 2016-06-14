@@ -46,3 +46,12 @@ var config = {
 # FURTHER DOCUMENTATION #
 
 For further documenation about commands or customizations see [data elevator documentation](https://www.npmjs.com/package/data-elevator).
+
+# RELATED MODULES #
+
+* data-elevator ([npm](https://www.npmjs.com/package/data-elevator), [bitbucket](https://bitbucket.org/cacadu/data-elevator/overview)) - store elevator migration levels in a plain file
+* data-elevator-elasticsearch ([npm](https://www.npmjs.com/package/data-elevator-elasticsearch), [bitbucket](https://bitbucket.org/cacadu/data-elevator-elasticsearch/overview)) - store elevator migration levels in elasticsearch
+* data-elevator-mongodb ([npm](https://www.npmjs.com/package/data-elevator-mongodb), [bitbucket](https://bitbucket.org/cacadu/data-elevator-mongodb/overview)) - store elevator migration levels in mongodb
+* data-elevator-mysql ([npm](https://www.npmjs.com/package/data-elevator-mysql), [bitbucket](https://bitbucket.org/cacadu/data-elevator-mysql/overview)) - store elevator migration levels in mysql
+* data-elevator-postgres ([npm](https://www.npmjs.com/package/data-elevator-postgres), [bitbucket](https://bitbucket.org/cacadu/data-elevator-postgres/overview)) - store elevator migration levels in postgres
+* data-elevator-sqlite3 ([npm](https://www.npmjs.com/package/data-elevator-sqlite3), [bitbucket](https://bitbucket.org/cacadu/data-elevator-sqlite3/overview)) - store elevator migration levels in sqlite3
