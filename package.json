@@ -25,6 +25,7 @@
     "upgrade",
     "sqlite3",
     "data-elevator",
+    "data-elevator-sqlite3",
     "elevate data",
     "datasource",
     "database"
