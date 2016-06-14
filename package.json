@@ -1,6 +1,6 @@
 {
   "name": "data-elevator-sqlite3",
-  "version": "1.1.0",
+  "version": "2.0.0-aplha.0",
   "description": "Flexible utility for managing migrations of sqlite3 data sources",
   "main": "elevator.js",
     "bin" : { 
@@ -11,21 +11,27 @@
     "migration",
     "migrations",
     "migrate data",
+    "data migrate",
+    "migrate database",
+    "database migrate",
+    "database migration",
+    "database migrations",
+    "data migration",
+    "data migrations",
     "migrate sqlite3",
     "sqlite3 migration",
     "sqlite3 migrate",
-    "database migration",
-    "data migration",
     "donwgrade",
     "upgrade",
     "sqlite3",
     "data-elevator",
     "elevate data",
-    "data",
     "datasource",
-    "database",
-    "utility"
+    "database"
   ],
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
   "bugs": "https://bitbucket.org/cacadu/data-elevator-sqlite3/issues/",
   "license": "MIT",
   "author": "Marco Jonker",
@@ -36,7 +42,8 @@
     "CHANGELOG",
     "elevator.js",
     "lib",
-    "bin"
+    "bin",
+    "test"
   ],
   "repository" : { 
     "type" : "git",
@@ -46,7 +53,7 @@
   "dependencies" : {
     "async": "^1.x",
     "sqlite3": "^3.x",
-    "data-elevator": "<2.0.0"
+    "data-elevator": "2.0.0-alpha.4"
   },
   "engines": {
     "node": ">=5.0.0"
