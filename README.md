@@ -28,6 +28,11 @@ node ./data-elevator/elevator move top
 node ./data-elevator/elevator move ground
 node ./data-elevator/elevator move 2
 ```
+**STEP 6:** Use help command to get information about additional commands
+```
+node ./data-elevator/elevator help
+```
+
 
 # CONFIGURATION #
 
