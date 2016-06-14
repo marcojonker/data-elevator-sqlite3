@@ -8,7 +8,7 @@ Storing the current migration level in a database brings advantages when a proje
 
 **STEP 1:** Install
 ```
-npm install data-elevator
+npm install data-elevator-sqlite3
 ```
 **STEP 2:** Construct a new data elevator for the project.
 ```
@@ -18,7 +18,7 @@ node ./node-modules/data-elevator-sqlite3 construct
 ```
 node ./data-elevator/elevator add "add phone number to users"
 ```
-**STEP 4:** Enter you migration code in the generated floor file
+**STEP 4:** Enter you migration code in the generated floor file.
 ```
 see: ./data-elevator/floors/
 ```
