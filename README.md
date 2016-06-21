@@ -1,5 +1,3 @@
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
-
 # DATA ELEVATOR SQLITE3 #
 
 The data elevator sqlite3 is an easy to use and very flexible utility for migrating data sources based on the NPM module [data elevator](https://www.npmjs.com/package/data-elevator). The only difference is that data elevator sqlite3 stores its current migration level in a sqlite3 database.
