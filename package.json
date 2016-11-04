@@ -50,7 +50,7 @@
     "type" : "git",
     "url" : "https://github.com/marcojonker/data-elevator-sqlite3.git"
   },
-  "homepage" : "https://cacadu.nl/opensource",
+  "homepage" : "https://www.cacadu.nl/opensource",
   "dependencies" : {
     "async": "^2.x",
     "sqlite3": "^3.x",
