@@ -6,6 +6,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [4.0.0] - 2021-09-27
 ### Updated
+- lint fixes
+
+## [4.0.0] - 2021-09-27
+### Updated
 - async to latest version
 - sqlite3 to latest version
 - es6
