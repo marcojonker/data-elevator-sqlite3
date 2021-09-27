@@ -4,6 +4,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [4.0.0] - 2021-09-27
+### Updated
+- async to latest version
+- sqlite3 to latest version
+- es6
+- mocha test
+- data-elevator latest version
+
 ## [2.1.0] - 2016-11-04
 ### Updated
 - Tested with NodeJs 7
