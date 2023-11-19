@@ -31,7 +31,7 @@
     "database"
   ],
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "mocha"
   },
   "bugs": "https://github.com/marcojonker/data-elevator-sqlite3/issues/",
   "license": "MIT",
@@ -52,15 +52,15 @@
   },
   "homepage": "https://cacadu.nl/opensource",
   "dependencies": {
-    "async": "^3.2.1",
-    "sqlite3": "^5.0.2",
-    "data-elevator": "^4.0.0"
+    "async": "^3.2.5",
+    "sqlite3": "^5.1.6",
+    "data-elevator": "^5.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "mocha": "^9.1.1"
+    "eslint": "^8.54.0",
+    "mocha": "^10.2.0"
   },
   "engines": {
-    "node": ">=12.10.0"
+    "node": ">=18"
   }
 }
