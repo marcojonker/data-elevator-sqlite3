@@ -1,6 +1,6 @@
 {
   "name": "data-elevator-sqlite3",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Flexible utility for managing migrations of sqlite3 data sources",
   "main": "elevator.js",
   "bin": {
@@ -54,7 +54,7 @@
   "dependencies": {
     "async": "^3.2.5",
     "sqlite3": "^5.1.6",
-    "data-elevator": "^5.0.0"
+    "data-elevator": "^5.0.1"
   },
   "devDependencies": {
     "eslint": "^8.54.0",
