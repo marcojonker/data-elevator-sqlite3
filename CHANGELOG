@@ -4,6 +4,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [5.1.0] - 2024-10-20
+
+### Updated
+- version bump
+
+### Added
+- Support for move up and down specific amount of floors
+
 ## [5.0.1] - 2024-07-01
 
 ### Updated

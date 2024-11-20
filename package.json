@@ -1,6 +1,6 @@
 {
   "name": "data-elevator-sqlite3",
-  "version": "5.0.1",
+  "version": "5.1.0",
   "description": "Flexible utility for managing migrations of sqlite3 data sources",
   "main": "elevator.js",
   "bin": {
@@ -31,7 +31,8 @@
     "database"
   ],
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint ./lib ./test"
   },
   "bugs": "https://github.com/marcojonker/data-elevator-sqlite3/issues/",
   "license": "MIT",
@@ -52,13 +53,16 @@
   },
   "homepage": "https://cacadu.nl/opensource",
   "dependencies": {
-    "async": "^3.2.5",
-    "sqlite3": "^5.1.6",
-    "data-elevator": "^5.0.1"
+    "async": "^3.2.6",
+    "data-elevator": "^5.1.0",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
-    "eslint": "^8.54.0",
-    "mocha": "^10.2.0"
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.15.0",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "mocha": "^10.8.2"
   },
   "engines": {
     "node": ">=18"
