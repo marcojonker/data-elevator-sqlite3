@@ -1,6 +1,6 @@
 {
   "name": "data-elevator-sqlite3",
-  "version": "5.1.0",
+  "version": "6.0.0",
   "description": "Flexible utility for managing migrations of sqlite3 data sources",
   "main": "elevator.js",
   "bin": {
